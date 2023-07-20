@@ -38,8 +38,11 @@ A new TreePanel object treePanel is created, passing the bst as an argument to t
 The treePanel is added to the JFrame using the add method.
 
 JPanel inputPanel = new JPanel();
+
 JTextField inputField = new JTextField(10);
+
 JButton insertButton = new JButton("Insert");
+
 insertButton.addActionListener(new ActionListener() {
     @Override
     public void actionPerformed(ActionEvent e) {
