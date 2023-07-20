@@ -53,8 +53,11 @@ insertButton.addActionListener(new ActionListener() {
     }
 });
 inputPanel.add(inputField);
+
 inputPanel.add(insertButton);
+
 add(inputPanel, BorderLayout.SOUTH);
+
 In this part, a new JPanel inputPanel is created to hold the input components.
 A JTextField inputField with width 10 is created to allow the user to enter values to insert into the BST.
 A JButton insertButton with the label "Insert" is created. An action listener is added to the button using an anonymous inner class.
